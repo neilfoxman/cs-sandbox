@@ -1,4 +1,6 @@
-﻿using System;
+﻿https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/delegates/using-delegates
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

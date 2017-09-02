@@ -1,4 +1,6 @@
-﻿using System;
+﻿// https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/statements-expressions-operators/anonymous-functions
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,7 +10,9 @@ namespace AnonymousSandbox
 {
     class Program
     {
+        // Declare delegates
         delegate void Del(string s);
+
 
         static void DumbMethod(string s)
         {
@@ -17,7 +21,7 @@ namespace AnonymousSandbox
 
         static void Main(string[] args)
         {
-            // https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/statements-expressions-operators/anonymous-functions
+            
 
             // Original syntax of delegate initialization
             Del d1 = DumbMethod;
